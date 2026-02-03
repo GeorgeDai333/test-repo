@@ -21,19 +21,19 @@ test:
 production:
   primary:
     <<: *default
-    url: <%= ENV['DATABASE_URL'] %>          # ← Critical: This pulls adapter, host, user, pass, dbname, sslmode
+    url: <%= ENV["DATABASE_URL"] || ENV["PRIMARY_DATABASE_URL"] %>
 
   cache:
     <<: *default
-    url: <%= ENV['DATABASE_URL'] %>          # Same DB for Solid Cache
+    url: <%= ENV["CACHE_DATABASE_URL"] || ENV["DATABASE_URL"] %>
     migrations_paths: db/cache_migrate
 
   queue:
     <<: *default
-    url: <%= ENV['DATABASE_URL'] %>          # Same for Solid Queue
+    url: <%= ENV["QUEUE_DATABASE_URL"] || ENV["DATABASE_URL"] %>
     migrations_paths: db/queue_migrate
 
   cable:
     <<: *default
-    url: <%= ENV['DATABASE_URL'] %>          # Same for ActionCable / Solid Cable
+    url: <%= ENV["CABLE_DATABASE_URL"] || ENV["DATABASE_URL"] %>
     migrations_paths: db/cable_migrate
