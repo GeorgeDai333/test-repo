@@ -107,3 +107,7 @@ production:
     <<: *primary_production
     database: book_collection_1_production_cable
     migrations_paths: db/cable_migrate
+  url: <%= ENV['DATABASE_URL'] %>
+  # Optional: add any extra settings that merge in
+  pool: <%= ENV['RAILS_MAX_THREADS'] || 5 %>
+  # (don't add host, username, password, database, etc. here unless you have a good reason)
