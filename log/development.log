@@ -1345,3 +1345,138 @@ Completed 200 OK in 27ms (Views: 5.0ms | ActiveRecord: 20.4ms (1 query, 0 cached
   [1m[35mSQL (0.2ms)[0m  [1m[35mSET search_path TO "$user", public /*application='BookCollection1'*/[0m
   [1m[35mSQL (0.3ms)[0m  [1m[35mSET search_path TO public /*application='BookCollection1'*/[0m
   [1m[35mSQL (0.4ms)[0m  [1m[35mSET search_path TO "$user", public /*application='BookCollection1'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (4.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*application='BookCollection1'*/[0m
+  [1m[36mBook Create (10.4ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "price", "published_at", "created_at", "updated_at") VALUES ('The Grapes of Wrath', 'Danyelle Ankunding', 28.24, '1974-03-01 13:28:35.634607', '2026-02-03 09:43:01.954514', '2026-02-03 09:43:01.954514') RETURNING "id" /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*application='BookCollection1'*/[0m
+  [1m[36mBook Create (1.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "price", "published_at", "created_at", "updated_at") VALUES ('Tirra Lirra by the River', 'Ophelia Torphy Esq.', 25.16, '1991-04-08 17:33:23.349557', '2026-02-03 09:43:01.970100', '2026-02-03 09:43:01.970100') RETURNING "id" /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*application='BookCollection1'*/[0m
+  [1m[36mBook Create (0.9ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "price", "published_at", "created_at", "updated_at") VALUES ('Dying of the Light', 'Johnathan Cruickshank DDS', 25.72, '1990-12-20 09:26:31.301891', '2026-02-03 09:43:01.973473', '2026-02-03 09:43:01.973473') RETURNING "id" /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*application='BookCollection1'*/[0m
+  [1m[36mBook Create (1.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "price", "published_at", "created_at", "updated_at") VALUES ('Jacob Have I Loved', 'Guadalupe Pfannerstill', 24.98, '1973-04-03 00:59:25.417957', '2026-02-03 09:43:01.976375', '2026-02-03 09:43:01.976375') RETURNING "id" /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*application='BookCollection1'*/[0m
+  [1m[36mBook Create (1.0ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "price", "published_at", "created_at", "updated_at") VALUES ('The World, the Flesh and the Devil', 'Patricia Doyle', 17.23, '1975-11-04 08:02:29.793990', '2026-02-03 09:43:01.980121', '2026-02-03 09:43:01.980121') RETURNING "id" /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*application='BookCollection1'*/[0m
+  [1m[36mBook Create (1.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "price", "published_at", "created_at", "updated_at") VALUES ('Dance Dance Dance', 'Leon Deckow', 10.32, '1958-08-15 21:08:50.189730', '2026-02-03 09:43:01.983091', '2026-02-03 09:43:01.983091') RETURNING "id" /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*application='BookCollection1'*/[0m
+  [1m[36mBook Create (1.0ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "price", "published_at", "created_at", "updated_at") VALUES ('A Summer Bird-Cage', 'Liane Krajcik VM', 22.96, '1954-07-13 02:05:22.785263', '2026-02-03 09:43:01.986249', '2026-02-03 09:43:01.986249') RETURNING "id" /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*application='BookCollection1'*/[0m
+  [1m[36mBook Create (1.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "price", "published_at", "created_at", "updated_at") VALUES ('His Dark Materials', 'Earleen Crooks', 8.23, '1977-10-03 00:38:46.089789', '2026-02-03 09:43:01.989157', '2026-02-03 09:43:01.989157') RETURNING "id" /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*application='BookCollection1'*/[0m
+  [1m[36mBook Create (0.9ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "price", "published_at", "created_at", "updated_at") VALUES ('Let Us Now Praise Famous Men', 'The Hon. Millard Rowe', 19.14, '2005-12-30 15:06:44.212080', '2026-02-03 09:43:01.992182', '2026-02-03 09:43:01.992182') RETURNING "id" /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*application='BookCollection1'*/[0m
+  [1m[36mBook Create (1.0ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "price", "published_at", "created_at", "updated_at") VALUES ('Mr Standfast', 'Sen. Santos Lockman', 23.68, '1974-04-07 13:54:26.847797', '2026-02-03 09:43:01.994852', '2026-02-03 09:43:01.994852') RETURNING "id" /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*application='BookCollection1'*/[0m
+  [1m[36mBook Create (1.0ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "price", "published_at", "created_at", "updated_at") VALUES ('The Curious Incident of the Dog in the Night-Time', 'Pat Lemke', 23.3, '1989-12-29 05:42:43.407828', '2026-02-03 09:43:01.997701', '2026-02-03 09:43:01.997701') RETURNING "id" /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*application='BookCollection1'*/[0m
+  [1m[36mBook Create (0.9ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "price", "published_at", "created_at", "updated_at") VALUES ('That Good Night', 'Santos DuBuque', 25.9, '2007-10-23 09:01:39.083133', '2026-02-03 09:43:02.000508', '2026-02-03 09:43:02.000508') RETURNING "id" /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*application='BookCollection1'*/[0m
+  [1m[36mBook Create (1.0ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "price", "published_at", "created_at", "updated_at") VALUES ('Ring of Bright Water', 'Ronny Zulauf', 5.93, '2008-06-10 14:15:35.978454', '2026-02-03 09:43:02.003205', '2026-02-03 09:43:02.003205') RETURNING "id" /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*application='BookCollection1'*/[0m
+  [1m[36mBook Create (1.0ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "price", "published_at", "created_at", "updated_at") VALUES ('The Stars'' Tennis Balls', 'Alba Boehm', 6.06, '1994-05-23 08:43:26.211980', '2026-02-03 09:43:02.006040', '2026-02-03 09:43:02.006040') RETURNING "id" /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*application='BookCollection1'*/[0m
+  [1m[36mBook Create (1.0ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "price", "published_at", "created_at", "updated_at") VALUES ('An Evil Cradling', 'Joette Miller', 14.48, '1978-09-21 22:21:17.416704', '2026-02-03 09:43:02.008899', '2026-02-03 09:43:02.008899') RETURNING "id" /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN /*application='BookCollection1'*/[0m
+  [1m[36mBook Create (2.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "price", "published_at", "created_at", "updated_at") VALUES ('Specimen Days', 'Cleveland Grady', 26.94, '1958-03-17 16:38:41.668193', '2026-02-03 09:43:02.011719', '2026-02-03 09:43:02.011719') RETURNING "id" /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN /*application='BookCollection1'*/[0m
+  [1m[36mBook Create (1.0ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "price", "published_at", "created_at", "updated_at") VALUES ('Number the Stars', 'Rep. Aleshia Stanton', 29.46, '1955-02-08 00:00:04.619755', '2026-02-03 09:43:02.015885', '2026-02-03 09:43:02.015885') RETURNING "id" /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*application='BookCollection1'*/[0m
+  [1m[36mBook Create (1.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "price", "published_at", "created_at", "updated_at") VALUES ('No Country for Old Men', 'Brendon Brakus', 8.99, '2022-12-28 13:06:39.497434', '2026-02-03 09:43:02.018768', '2026-02-03 09:43:02.018768') RETURNING "id" /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*application='BookCollection1'*/[0m
+  [1m[36mBook Create (1.0ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "price", "published_at", "created_at", "updated_at") VALUES ('Edna O''Brien', 'Maurice Champlin', 8.07, '1949-09-24 17:42:00.096785', '2026-02-03 09:43:02.021705', '2026-02-03 09:43:02.021705') RETURNING "id" /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*application='BookCollection1'*/[0m
+  [1m[36mBook Create (1.0ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "price", "published_at", "created_at", "updated_at") VALUES ('The Millstone', 'Anthony Smitham', 15.22, '1999-03-17 19:31:46.939207', '2026-02-03 09:43:02.024630', '2026-02-03 09:43:02.024630') RETURNING "id" /*application='BookCollection1'*/[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT /*application='BookCollection1'*/[0m
+  [1m[36mBook Count (2.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "books" /*application='BookCollection1'*/[0m
+Started GET "/" for 127.0.0.1 at 2026-02-03 03:47:52 -0600
+Started GET "/" for 127.0.0.1 at 2026-02-03 03:47:52 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BookCollection1'*/[0m
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (52.2ms)[0m  [1m[34mSELECT "books".* FROM "books" /*action='index',application='BookCollection1',controller='books'*/[0m
+  ↳ app/views/books/index.html.erb:9
+  Rendered books/_book.html.erb (Duration: 0.6ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2026-02-03 03:47:53 -0600
+  Rendered books/index.html.erb within layouts/application (Duration: 146.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 156.2ms | GC: 0.0ms)
+Completed 200 OK in 1065ms (Views: 59.7ms | ActiveRecord: 107.0ms (1 query, 0 cached) | GC: 124.2ms)
+
+
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.5ms)[0m  [1m[34mSELECT "books".* FROM "books" /*action='index',application='BookCollection1',controller='books'*/[0m
+  ↳ app/views/books/index.html.erb:9
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/_book.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered books/index.html.erb within layouts/application (Duration: 5.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
